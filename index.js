@@ -43,7 +43,7 @@ module.exports = (destination, options) => {
 	options = {
 		cwd: process.cwd(),
 		hasChanged: compareLastModifiedTime,
-		...options
+		// ...options
 	};
 
 	if (!destination) {
